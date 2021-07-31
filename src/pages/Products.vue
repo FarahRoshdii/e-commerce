@@ -1,11 +1,30 @@
 <template>
   <div class="q-pa-md">
-    <div style="margin-bottom: 20px; text-align: right">
-      <q-btn class="glossy" color="teal" label="Add a new product"></q-btn>
+    <div>
+      <div style="margin-bottom: 20px; text-align: right">
+        <q-btn
+          class="bg-accent"
+          text-color="black"
+          label="Import"
+          no-caps
+        ></q-btn>
+        <q-btn
+          class="bg-accent"
+          text-color="black"
+          label="Export"
+          no-caps
+        ></q-btn>
+        <q-btn
+          class="bg-positive"
+          text-color="white"
+          label="Add a new product"
+          no-caps
+        ></q-btn>
+      </div>
     </div>
 
     <q-table
-      title="Products List"
+      title="Stocks List"
       :rows="tickersList"
       :columns="columns"
       row-key="name"

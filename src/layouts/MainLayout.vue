@@ -11,7 +11,7 @@
           @click="toggleLeftDrawer"
         />
 
-        <q-toolbar-title text-bold> All Products </q-toolbar-title>
+        <q-toolbar-title text-bold> All Stocks </q-toolbar-title>
       </q-toolbar>
     </q-header>
 

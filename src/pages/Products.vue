@@ -1,6 +1,6 @@
 <template>
   <div class="q-pa-md">
-    <div>
+    <div class="container">
       <div style="margin-bottom: 20px; text-align: right">
         <q-btn
           class="bg-accent"

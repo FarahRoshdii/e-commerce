@@ -23,23 +23,21 @@
       class="bg-dark text-white"
     >
       <q-list>
-
         <EssentialLink
           v-for="link in essentialLinks"
           :key="link.title"
           v-bind="link"
         />
       </q-list>
-  <q-img class="absolute-top"  style="height: 150px">
-          <div class="absolute-top bg-transparent">
-            <q-avatar size="40px" class="q-mb-sm">
-              <img src="https://cdn.quasar.dev/img/boy-avatar.png">
-            </q-avatar>
-            <div class="text-weight-bold ">DOTS</div>
-            <div>Free in Trial plan</div>
-          </div>
-        </q-img>
-
+      <q-img class="absolute-top" style="height: 150px">
+        <div class="absolute-top bg-transparent">
+          <q-avatar size="40px" class="q-mb-sm">
+            <img src="https://cdn.quasar.dev/img/boy-avatar.png" />
+          </q-avatar>
+          <div class="text-weight-bold">DOTS</div>
+          <div>Free in Trial plan</div>
+        </div>
+      </q-img>
     </q-drawer>
 
     <q-page-container>
@@ -70,7 +68,7 @@ const linksList = [
     items: [
       {
         title: "All Products",
-        link:"/products"
+        link: "/products",
       },
       {
         title: "Inventory",
